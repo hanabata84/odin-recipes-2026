@@ -36,13 +36,16 @@ a {
 li {
     margin-bottom: 10px;
 }
-
+img {
+    border-radius: 15px;
+}
 li img {
     display: block;
     width: 200px;
     height: 200px;
     object-fit: cover;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 h1.child {
