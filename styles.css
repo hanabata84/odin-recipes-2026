@@ -6,3 +6,59 @@
     border: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(237, 237, 239);
+}
+
+#hero-container {
+    height: 250px;
+    background-image: url('./img/food-dish2.jpg');
+    background-size: cover;
+    background-position: 25% 90%;
+    /* border-bottom: 1px solid rgb(211, 207, 212); */
+    box-shadow: rgba(77, 72, 72, 0.238) 1.95px 1.95px 2.6px;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+#main-container {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1.child {
+    margin: 20px 0;
+}
+
+h3.child {
+    color: rgb(127, 45, 7);
+    margin-top: 20px;
+}
+
+ul.child {
+    border-bottom: 1px solid rgb(211, 211, 215);
+    padding: 20px;
+}
+
+ol.child {
+    padding: 20px;
+}
